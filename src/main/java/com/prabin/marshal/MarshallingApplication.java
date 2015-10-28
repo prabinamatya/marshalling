@@ -31,12 +31,12 @@ public class MarshallingApplication {
 
 			Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
 			Currency currency = (Currency) jaxbUnmarshaller.unmarshal(file);
-//			System.out.println(currency.getName());
-//			System.out.println(currency.getSymbol().toString());
+			System.out.println(currency.getIso());
+			System.out.println(currency.getName());
+			System.out.println(currency.getSymbol().toString());
 //			SubUnit subunit = currency.getSubunit();
 //			System.out.println(subunit.getName());
-//			System.out.println(currency.getLinks().get);
-//			System.out.println(currency.getLinks().);
+			System.out.println(currency.getLinks().get(0));
 
 		} catch (JAXBException e) {
 			LOGGER.info("Exception", e);
