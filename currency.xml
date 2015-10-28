@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<currency>
+  <iso>USD</iso>
+  <name>US Dollar</name>
+  <symbol>$</symbol>
+  <subUnit>
+    <name>Cents</name>
+  </subUnit>
+  <links>
+    <link href="someurl.com/id/34939"/>
+    <link href="someurl.com/id/0839308"/>
+    <link href="someurl.com/id/3083"/>
+    <link href="someurl.com/id/309230"/>
+  </links>
+</currency>
